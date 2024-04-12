@@ -7,9 +7,14 @@ const url = 'data/itemFinal4.11.24.json';
 //}
 //console.log(btn);
 
+var item =[];
+console.log('begin: ' + Date.now());
 fetch(url)
 .then(res => res.json())
 .then(data => {
-    const item = data;
-    console.log(item);
+    item = data;
+    //console.log(item);
+    console.log('end of read json ' + Date.now());
 });
+console.log('end ' + Date.now());
+console.log(item);
