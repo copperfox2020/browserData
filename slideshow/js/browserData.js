@@ -6,8 +6,4 @@ btn.onclick = () => {
     console.log('clicked');
 }
 //console.log(btn);
-fetch(url)
-.then(res => res.json())
-.then(data => {
-    console.log(data);
-})
+

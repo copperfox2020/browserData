@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {
+
+	background-color: #FFFFCC;
+
+}
+
+.style2 {
+
+	font-family: "Times New Roman", Times, serif;
+
+	font-weight: bold;
+
+	font-size: larger;
+
+}
+
+.style3 {font-size: smaller}
+
+.style5 {font-family: "Times New Roman", Times, serif; font-weight: bold; font-size: larger; font-style: italic; }
+
+h2 {
+	color: red;
+}
+
+.announcement {
+	color: red;
+}
